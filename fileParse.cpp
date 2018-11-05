@@ -9,6 +9,7 @@
 #include "fileParse.hpp"
 #include "wordParse.hpp"
 #include "deleteMarks.hpp"
+<<<<<<< HEAD
 #include <string>
 #include <fstream>
 #include <iostream>
@@ -31,3 +32,6 @@ void fileParse(string fileName){
     }
 
 }
+=======
+
+>>>>>>> f7691624087044037d92e988e10850a1a8bc9ad9

@@ -8,9 +8,13 @@
 
 #ifndef wordParse_hpp
 #define wordParse_hpp
+<<<<<<< HEAD
 #include <string>
 #include <stdio.h>
 using namespace std;
 
 bool parseWord(string word);
+=======
+
+>>>>>>> f7691624087044037d92e988e10850a1a8bc9ad9
 #endif /* wordParse_hpp */

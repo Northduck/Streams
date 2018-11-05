@@ -8,6 +8,7 @@
 
 #include "wordParse.hpp"
 #include "Vowels.hpp"
+<<<<<<< HEAD
 #include <string>
 #include <iostream>
 bool parseWord(string word){
@@ -24,3 +25,5 @@ bool parseWord(string word){
     }
     return true;
 }
+=======
+>>>>>>> f7691624087044037d92e988e10850a1a8bc9ad9

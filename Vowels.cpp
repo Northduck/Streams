@@ -7,6 +7,7 @@
 //
 
 #include "Vowels.hpp"
+<<<<<<< HEAD
 #include <stdio.h>
 #include <string>
 using namespace std;
@@ -19,3 +20,6 @@ bool isWordVowels(char el){
     }
     return false;
 }
+=======
+
+>>>>>>> f7691624087044037d92e988e10850a1a8bc9ad9
