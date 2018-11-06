@@ -1,4 +1,3 @@
-
 //
 //  main.cpp
 //  Streams
@@ -12,6 +11,16 @@
 #include "fileParse.hpp"
 using namespace std;
 int main() {
-    
+    int a=1;
+    string c;
+    while(a==1){
+        cout<<"Enter name of the file"<<endl;
+        cin>>c;
+        cout<<endl;
+        cout<<c;
+        fileParse(c);
+        cout<<"Do you want to continue work with programm?"<<endl;
+        cin>>a;
+    }
     return 0;
 }

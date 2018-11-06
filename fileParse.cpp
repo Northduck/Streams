@@ -9,7 +9,6 @@
 #include "fileParse.hpp"
 #include "wordParse.hpp"
 #include "deleteMarks.hpp"
-<<<<<<< HEAD
 #include <string>
 #include <fstream>
 #include <iostream>
@@ -19,7 +18,7 @@ void fileParse(string fileName){
     string word;
     file.open ((fileName+".txt"), ios::in);
     if(!file){
-        cout<<"There is no file with this name\n";
+        cout<<endl<<"There is no file with this name"<<endl;
     }
     else{
         while(!file.eof()){
@@ -30,8 +29,6 @@ void fileParse(string fileName){
             }
         }
     }
-
+    cout<<endl;
+    cout<<endl;
 }
-=======
-
->>>>>>> f7691624087044037d92e988e10850a1a8bc9ad9
