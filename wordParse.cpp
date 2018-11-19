@@ -11,17 +11,11 @@
 #include <string>
 #include <iostream>
 bool parseWord(string word){
-    if(word.length()>0){
         if(word.length()>1){
             return (isWordVowels(word[0]) && isWordVowels(word[word.length()-1]));
         }
         else{
             return isWordVowels(word[0]);
         }
-    }
-    else{
-        cout<<"Word is empty";
-    }
-    return true;
 }
 

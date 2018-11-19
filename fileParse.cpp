@@ -13,22 +13,23 @@
 #include <fstream>
 #include <iostream>
 using namespace std;
-void fileParse(string fileName){
+bool fileParse(string fileName){
     ifstream file;
     string word;
     file.open ((fileName+".txt"), ios::in);
     if(!file){
         cout<<endl<<"There is no file with this name"<<endl;
+        return false;
     }
-    else{
-        while(!file.eof()){
-            file >> word;
-            deleteMarks(word);
-            if(parseWord(word)){
-                cout<<word<<endl;
-            }
+    while(!file.eof()){
+        file >> word;
+        deleteMarks(word);
+        if(parseWord(word)){
+            cout<<word<<endl;
         }
     }
     cout<<endl;
     cout<<endl;
+    file.close();
+    return true;
 }

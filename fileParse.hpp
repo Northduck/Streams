@@ -12,6 +12,6 @@
 #include <string>
 using namespace std;
 
-void fileParse(string fileName);
+bool fileParse(string fileName);
 
 #endif /* fileParse_hpp */

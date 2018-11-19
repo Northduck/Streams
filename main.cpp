@@ -17,7 +17,6 @@ int main() {
         cout<<"Enter name of the file"<<endl;
         cin>>c;
         cout<<endl;
-        cout<<c;
         fileParse(c);
         cout<<"Do you want to continue work with programm?"<<endl;
         cin>>a;
